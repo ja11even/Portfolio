@@ -1,0 +1,419 @@
+.tools {
+  max-width: 90%;
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  @media (max-width: 1400px) {
+    max-width: 90%;
+  }
+  @media (max-width: 700px) {
+    max-width: 90%;
+  }
+}
+
+.tools h2 {
+  font-size: 3rem;
+  @media (max-width: 1400px) {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  @media (max-width: 700px) {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+.tools h3 {
+  font-size: 1.7rem;
+  @media (max-width: 1400px) {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  @media (max-width: 700px) {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+.frontend {
+  margin-top: 10px;
+  @media (max-width: 1400px) {
+    margin-top: 15px;
+  }
+  @media (max-width: 700px) {
+    margin-top: 15px;
+  }
+}
+.backend {
+  margin-top: 10px;
+  @media (max-width: 1400px) {
+    margin-top: 30px;
+  }
+  @media (max-width: 700px) {
+    margin-top: 30px;
+  }
+}
+.extras {
+  margin-top: 10px;
+  @media (max-width: 1400px) {
+    margin-top: 50px;
+  }
+  @media (max-width: 700px) {
+    margin-top: 50px;
+  }
+}
+.frontendTools {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.4rem;
+  height: auto;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: flex-start;
+  @media (max-width: 700px) {
+  }
+}
+.javascript {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    flex: 1 1 calc(30% - 1.4rem);
+  }
+  @media (max-width: 700px) {
+    flex: 1 1 calc(33.333% - 1.4rem);
+    flex-direction: column;
+  }
+}
+.javascript p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+
+.react {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    flex: 1 1 calc(30% - 1.4rem);
+  }
+  @media (max-width: 700px) {
+    flex: 1 1 calc(33.333% - 1.4rem);
+    flex-direction: column;
+  }
+}
+.react p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.nextjs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    flex: 1 1 calc(30% - 1.4rem);
+  }
+  @media (max-width: 700px) {
+    flex: 1 1 calc(33.333% - 1.4rem);
+    flex-direction: column;
+  }
+}
+.nextjs p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.tailwind {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    flex: 1 1 calc(33% - 1.4rem);
+  }
+  @media (max-width: 700px) {
+    flex: 1 1 calc(33.333% - 1.4rem);
+    flex-direction: column;
+  }
+}
+.tailwind p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.styledcomponents {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    flex: 1 1 calc(33% - 1.4rem);
+  }
+  @media (max-width: 700px) {
+    flex: 1 1 calc(33.333% - 1.4rem);
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.styledcomponents p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.framermotion {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    flex: 1 1 calc(33% - 1.4rem);
+  }
+  @media (max-width: 700px) {
+    flex: 1 1 calc(33.333% - 1.4rem);
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.framermotion p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.tanstackquery {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    width: 29%;
+  }
+  @media (max-width: 700px) {
+    flex-direction: column;
+    width: 29%;
+  }
+}
+.tanstackquery p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.backendTools {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1.4rem;
+  height: auto;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  @media (max-width: 700px) {
+  }
+}
+.nodejs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    flex: 1 1 calc(33% - 1.4rem);
+  }
+  @media (max-width: 700px) {
+    flex: 1 1 calc(33.333% - 1.4rem);
+    flex-direction: column;
+  }
+}
+.nodejs p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.sqlite {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    flex: 1 1 calc(33% - 1.4rem);
+  }
+  @media (max-width: 700px) {
+    flex: 1 1 calc(33.333% - 1.4rem);
+    flex-direction: column;
+  }
+}
+.sqlite p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.supabase {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    flex: 1 1 calc(33% - 1.4rem);
+  }
+  @media (max-width: 700px) {
+    flex: 1 1 calc(33.333% - 1.4rem);
+    flex-direction: column;
+  }
+}
+.supabase p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.extraTools {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1.4rem;
+  height: auto;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: flex-start;
+  @media (max-width: 700px) {
+  }
+}
+.git {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    flex: 1 1 calc(33% - 1.4rem);
+  }
+  @media (max-width: 700px) {
+    flex: 1 1 calc(33.333% - 1.4rem);
+    flex-direction: column;
+  }
+}
+.git p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.github {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    flex: 1 1 calc(33% - 1.4rem);
+  }
+  @media (max-width: 700px) {
+    flex: 1 1 calc(33.333% - 1.4rem);
+    flex-direction: column;
+  }
+}
+.github p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.figma {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    flex: 1 1 calc(33% - 1.4rem);
+  }
+  @media (max-width: 700px) {
+    flex: 1 1 calc(33.333% - 1.4rem);
+    flex-direction: column;
+  }
+}
+.figma p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.vercel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    flex: 1 1 calc(33% - 1.4rem);
+  }
+  @media (max-width: 700px) {
+    flex: 1 1 calc(33.333% - 1.4rem);
+    flex-direction: column;
+  }
+}
+.vercel p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.resend {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    flex: 1 1 calc(33% - 1.4rem);
+  }
+  @media (max-width: 700px) {
+    flex: 1 1 calc(33.333% - 1.4rem);
+    flex-direction: column;
+  }
+}
+.resend p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.postman {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    width: 29%;
+  }
+  @media (max-width: 700px) {
+    width: 29%;
+    flex-direction: column;
+  }
+}
+.postman p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.aws {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  @media (max-width: 1400px) {
+    flex: 1 1 calc(33% - 1.4rem);
+  }
+  @media (max-width: 700px) {
+    flex: 1 1 calc(33.333% - 1.4rem);
+    flex-direction: column;
+  }
+}
+.aws p {
+  font-size: 1.2rem;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.images {
+  width: 60px;
+  height: 60px;
+  @media (max-width: 1400px) {
+    width: 50px;
+    height: 50px;
+  }
+  @media (max-width: 700px) {
+    width: 50px;
+    height: 50px;
+  }
+}

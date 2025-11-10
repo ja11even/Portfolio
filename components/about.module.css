@@ -1,0 +1,88 @@
+.about {
+  max-width: 90%;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  align-items: center;
+  @media (max-width: 1400px) {
+    max-width: 95%;
+    flex-direction: column;
+  }
+  @media (max-width: 700px) {
+    max-width: 95%;
+    flex-direction: column;
+  }
+}
+
+.aboutLeft {
+  width: 50%;
+  padding: 1rem;
+  @media (max-width: 1400px) {
+    width: 100%;
+    padding: 0rem;
+  }
+  @media (max-width: 700px) {
+    width: 100%;
+    padding: 0rem;
+  }
+}
+.aboutLeft h2 {
+  font-size: 4rem;
+  @media (max-width: 1400px) {
+    font-size: 3rem;
+  }
+  @media (max-width: 700px) {
+    font-size: 2.2rem;
+  }
+}
+.aboutRight {
+  width: 50%;
+  padding: 1rem;
+  @media (max-width: 1400px) {
+    width: 100%;
+    padding: 0rem;
+  }
+  @media (max-width: 700px) {
+    width: 100%;
+    padding: 0rem;
+  }
+}
+.aboutRight p {
+  font-size: 1.2rem;
+  color: #717070;
+  line-height: 1.3;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+
+.aboutMe {
+  max-width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  line-height: 1.3;
+  @media (max-width: 1400px) {
+    max-width: 95%;
+  }
+  @media (max-width: 700px) {
+    max-width: 95%;
+    margin-top: 30px;
+  }
+}
+
+.aboutMe p {
+  font-size: 1.3rem;
+  @media (max-width: 700px) {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+}
+.filler {
+  @media (max-width: 1400px) {
+    margin-top: 10px;
+  }
+  @media (max-width: 700px) {
+    margin-top: 10px;
+  }
+}

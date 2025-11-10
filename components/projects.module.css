@@ -1,0 +1,162 @@
+.projects {
+  max-width: 90%;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  @media (max-width: 1400px) {
+    gap: 1.5rem;
+  }
+  @media (max-width: 700px) {
+    max-width: 90%;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 40px;
+  }
+}
+
+.projectCard {
+  border: 2px solid #cbcad1;
+  width: 26%;
+  height: auto;
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 1400px) {
+    width: 48%;
+  }
+  @media (max-width: 700px) {
+    width: 100%;
+  }
+}
+.cardEmoji {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.whisperemojiDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem;
+  border-radius: 10px;
+  background-color: #fb2c36;
+}
+.petmuseemojiDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem;
+  border-radius: 10px;
+  background-color: #8e51ff;
+}
+.stackDiv {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.stackDiv p {
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  color: #585b5e;
+  background-color: #cbcad1;
+}
+.cardTitle {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.cardTitle p {
+  font-size: 2.5rem;
+}
+.cardInfo {
+  margin-top: 15px;
+}
+.cardInfo p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.cardStack {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.cardStack ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.cardStack li {
+  font-size: 1rem;
+  border: 1px solid #717070;
+  padding: 0.2rem 0.6rem;
+  color: #585b5e;
+}
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  gap: 0.5rem;
+}
+.cardFooter p {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.cardFooter1 {
+  display: flex;
+  gap: 0.5rem;
+  color: #585b5e;
+}
+.liveDot {
+  display: flex;
+}
+.liveDot p {
+  margin-left: -6px;
+}
+.dot {
+  margin-left: -15px;
+}
+.whispercardButton {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.7rem;
+  font-size: 1rem;
+  border: none;
+  gap: 0.3rem;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #fb2c36;
+  justify-content: center;
+  color: #fb2c36;
+}
+.whispercardButton:hover {
+  cursor: pointer;
+}
+.petmuseCardButton {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.7rem;
+  font-size: 1rem;
+  border: none;
+  gap: 0.3rem;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #8e51ff;
+  justify-content: center;
+  color: #8e51ff;
+}
+.cardFooter2 a {
+  text-decoration: none;
+}
+.petmuseCardButton:hover {
+  cursor: pointer;
+}
+.externallink:hover {
+  cursor: pointer;
+}

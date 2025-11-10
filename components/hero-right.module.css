@@ -1,0 +1,36 @@
+.right {
+  width: 70%;
+  padding: 1rem;
+  align-self: flex-end;
+  margin-top: 10px;
+  @media (max-width: 1400px) {
+    padding: 0rem;
+    width: 100%;
+    margin-top: 20px;
+  }
+  @media (max-width: 700px) {
+    padding: 0rem;
+    width: 99%;
+    margin-top: 20px;
+  }
+}
+.right p {
+  font-size: 3.5rem;
+  margin-left: 70px;
+  word-break: normal;
+  overflow-wrap: break-word;
+  white-space: normal;
+  hyphens: none;
+  @media (max-width: 1400px) {
+    font-size: 3rem;
+    line-height: 1.5;
+    margin-left: 0px;
+    text-align: right;
+  }
+  @media (max-width: 700px) {
+    font-size: 1.9rem;
+    line-height: 1.5;
+    margin-left: 0px;
+    text-align: right;
+  }
+}
