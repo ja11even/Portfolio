@@ -16,25 +16,24 @@
 
 .summary h2 {
   font-size: 3.5rem;
-  width: 600px;
+  width: 100%;
   text-align: center;
+  border: 1px solid black;
   @media (max-width: 1400px) {
     font-size: 3rem;
   }
   @media (max-width: 700px) {
     font-size: 2rem;
-    width: 100%;
   }
 }
 
 .summary p {
   font-size: 1.3rem;
   color: #717070;
-  width: 710px;
+  width: 100%;
   text-align: center;
   margin-top: 10px;
   @media (max-width: 700px) {
-    width: 100%;
     font-size: 1rem;
     line-height: 1.3rem;
   }

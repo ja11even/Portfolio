@@ -15,7 +15,7 @@ const container = {
   hidden: {},
   show: {
     transition: {
-      staggerChildren: 0.7,
+      staggerChildren: 0.9,
     },
   },
 };
@@ -67,7 +67,7 @@ export default function Project() {
           </div>
         </div>
         <div className={styles.cardTitle}>
-          <p>{`<PetMuse />`}</p>
+          <p>{`<PetMuse/>`}</p>
         </div>
         <div className={styles.cardInfo}>
           <p>
@@ -104,7 +104,7 @@ export default function Project() {
               rel="noopener noreferrer"
             >
               <button className={styles.petmuseCardButton}>
-                View <ArrowRight size={15} />
+                View <ArrowRight size={15} className={styles.icons} />
               </button>
             </a>
           </div>
@@ -132,7 +132,7 @@ export default function Project() {
           </div>
         </div>
         <div className={styles.cardTitle}>
-          <p>{`<Whisper />`}</p>
+          <p>{`<Whisper/>`}</p>
         </div>
         <div className={styles.cardInfo}>
           <p>
@@ -168,7 +168,7 @@ export default function Project() {
               rel="noopener noreferrer"
             >
               <button className={styles.whispercardButton}>
-                View <ArrowRight size={15} />
+                View <ArrowRight size={15} className={styles.icons} />
               </button>
             </a>
           </div>

@@ -160,3 +160,8 @@
 .externallink:hover {
   cursor: pointer;
 }
+.icons {
+  @media (max-width: 700px) {
+    margin-top: 1px;
+  }
+}

@@ -110,7 +110,7 @@ export default function Header() {
       </div>
       <div className={styles.menu}>
         <AnimatePresence mode="wait" initial={false}>
-          <TextAlignEnd onClick={() => setOpen(true)} />
+          <TextAlignEnd onClick={() => setOpen(true)} size={30} />
           {open && (
             <motion.div
               className={styles.overlay}
@@ -141,7 +141,7 @@ export default function Header() {
                   </div>
                 </div>
                 <div className={styles.mobileiconmenu}>
-                  <X onClick={() => setOpen(false)} />
+                  <X onClick={() => setOpen(false)} size={30} />
                 </div>
               </div>
               <ul className={styles.mobilemenu}>
