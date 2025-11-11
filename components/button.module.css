@@ -6,11 +6,16 @@
   justify-content: center;
   margin-top: 70px;
   @media (max-width: 1400px) {
-    width: 95%;
+    width: 92%;
   }
   @media (max-width: 700px) {
-    width: 95%;
+    width: 92%;
   }
+}
+
+.buttonDiv a {
+  text-decoration: none;
+  color: black;
 }
 
 .button {
@@ -21,13 +26,9 @@
   font-family: inherit;
   cursor: pointer;
   background-color: transparent;
+  color: black;
   @media (max-width: 700px) {
     font-size: 1.2rem;
     padding: 0.8rem 1.7rem;
   }
-}
-
-.button a {
-  text-decoration: none;
-  color: black;
 }

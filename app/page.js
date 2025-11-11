@@ -10,25 +10,23 @@ import Summary from "@/components/summary";
 
 export default function Home() {
   return (
-    <div>
-      <main className={styles.main}>
-        <div className={styles.hero}>
-          <HeroLeft />
-          <HeroRight />
-        </div>
-        <Button />
-        <Featured />
-        <Project />
-        <About />
-        <Tools />
-        <Summary />
-        <div className={styles.cwm}>
-          <h1>Connect with me</h1>
-        </div>
-        <div className={styles.footer}>
-          <p>Built by Elijah</p>
-        </div>
-      </main>
+    <div className={styles.main}>
+      <div className={styles.hero}>
+        <HeroLeft />
+        <HeroRight />
+      </div>
+      <Button />
+      <Featured />
+      <Project />
+      <About />
+      <Tools />
+      <Summary />
+      <div className={styles.cwm}>
+        <h1>Connect with me</h1>
+      </div>
+      <div className={styles.footer}>
+        <p>Built by Elijah</p>
+      </div>
     </div>
   );
 }

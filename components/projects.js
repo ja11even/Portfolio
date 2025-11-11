@@ -15,8 +15,7 @@ const container = {
   hidden: {},
   show: {
     transition: {
-      delayChildren: 0.4,
-      staggerChildren: 0.4,
+      staggerChildren: 0.7,
     },
   },
 };
@@ -38,7 +37,7 @@ const project = {
 
 export default function Project() {
   const box = useRef(null);
-  const isboxInView = useInView(box, { once: true, amount: 0.6 });
+  const isboxInView = useInView(box, { once: true, amount: 0.3 });
   return (
     <motion.div
       ref={box}

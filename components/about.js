@@ -51,7 +51,7 @@ const aboutMe = {
     y: 0,
     transition: {
       duration: 0.5,
-      delay: 0.6,
+      delay: 0.8,
       ease: "easeInOut",
     },
   },
@@ -91,7 +91,7 @@ export default function About() {
           developer with an intense focus on the craft of web application
           development. I specialize in turning keen attention to detail and
           creative vision into smooth, scalable digital products.
-          <div className={styles.filler} />
+          <br />
           On the frontend, I leverage{" "}
           <span style={{ color: "#717070" }}>React</span>,{" "}
           <span style={{ color: "#717070" }}>Next.js</span>,{" "}

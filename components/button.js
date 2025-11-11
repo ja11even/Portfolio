@@ -16,7 +16,7 @@ export default function Button() {
           animate={
             isbuttonInView ? { scale: [1, 1.4, 1], opacity: 1 } : { scale: 1 }
           }
-          transition={{ duration: 0.6, delay: 0.5, ease: "easeInOut" }}
+          transition={{ duration: 0.6, ease: "easeInOut" }}
           className={styles.button}
         >
           Connect With Me!

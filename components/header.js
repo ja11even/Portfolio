@@ -69,8 +69,9 @@ export default function Header() {
       });
     }, 300);
   };
+
   return (
-    <header className={styles.header}>
+    <div className={styles.header}>
       <div className={styles.profile}>
         <div>
           <Image src={avatar} alt="avatar" priority className={styles.avatar} />
@@ -121,6 +122,7 @@ export default function Header() {
                 stiffness: 80,
                 damping: 8,
                 mass: 1,
+                duration: 0.1,
               }}
             >
               <div className={styles.mobileheader}>
@@ -165,6 +167,6 @@ export default function Header() {
           )}
         </AnimatePresence>
       </div>
-    </header>
+    </div>
   );
 }
