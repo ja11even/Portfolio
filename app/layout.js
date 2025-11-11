@@ -1,6 +1,12 @@
-import Header from "@/components/header";
+import localFont from "next/font/local";
 import "./globals.css";
-import Head from "next/head";
+import Header from "@/components/header";
+
+const gilroy = localFont({
+  src: "./../public/fonts/Gilroy-Regular.woff2",
+  display: "swap",
+  variable: "--font-gilroy",
+});
 export const metadata = {
   title: "Elijah Ogwo",
   description: "Elijah's portfolio",
@@ -8,13 +14,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <Head>
-        <link
-          href="https://db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy-Regular"
-          rel="stylesheet"
-        />
-      </Head>
+    <html lang="en" className={gilroy.variable}>
       <body>
         <Header />
         {children}

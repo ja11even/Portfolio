@@ -3,27 +3,13 @@
   margin: 0;
   padding: 0;
 }
-@font-face {
-  font-family: "Gilroy-Regular";
-  src: url("https://db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.eot");
-  src: url("https://db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.woff2")
-      format("woff2"),
-    url("https://db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.woff")
-      format("woff"),
-    url("https://db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.ttf")
-      format("truetype"),
-    url("https://db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.svg#Gilroy-Regular")
-      format("svg");
-}
 html {
   overflow-x: hidden;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
 body {
-  font-family: "Gilroy-Regular";
+  font-family: var(--font-gilroy), sans-serif;
   background-color: #e4e0e0;
   -ms-overflow-style: none;
   scrollbar-width: none;
