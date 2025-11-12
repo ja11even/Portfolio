@@ -18,6 +18,9 @@
   font-size: 3.5rem;
   width: 600px;
   text-align: center;
+  font-weight: 900;
+  letter-spacing: -2px;
+  color: black;
   @media (max-width: 1400px) {
     font-size: 3rem;
   }
@@ -30,7 +33,7 @@
 .summary p {
   font-size: 1.3rem;
   color: #717070;
-  width: 710px;
+  width: 720px;
   text-align: center;
   margin-top: 10px;
   @media (max-width: 700px) {
@@ -50,6 +53,8 @@
 
 .summary li {
   font-size: 1.3rem;
+  font-weight: 600;
+  font-family: inherit;
   @media (max-width: 700px) {
     font-size: 1.1rem;
   }
@@ -66,6 +71,7 @@
   font-family: inherit;
   cursor: pointer;
   color: black;
+  font-weight: 600;
   background-color: transparent;
   @media (max-width: 700px) {
     font-size: 1.2rem;

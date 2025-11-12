@@ -29,6 +29,7 @@
 }
 .featuredLeft h2 {
   font-size: 4rem;
+  letter-spacing: -2px;
   @media (max-width: 1400px) {
     font-size: 3rem;
   }

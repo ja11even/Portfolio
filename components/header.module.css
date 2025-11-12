@@ -33,15 +33,17 @@
 .info p {
   font-size: 1.15rem;
   color: #717070;
+  font-weight: 600;
   @media (max-width: 700px) {
     font-size: 0.9rem;
   }
 }
 
 .info h2 {
-  font-size: 2rem;
+  font-size: 2.1rem;
+  letter-spacing: -1px;
   @media (max-width: 700px) {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -58,10 +60,11 @@
 }
 
 .nav a {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-decoration: none;
   cursor: pointer;
   color: black;
+  font-weight: 600;
 }
 
 .nav {
@@ -75,11 +78,11 @@
 }
 
 .datetime {
-  width: 400px;
+  width: 430px;
   text-align: right;
   display: flex;
   flex-direction: row;
-  gap: 0.5rem;
+  gap: 1rem;
   color: #9f9c9c;
   @media (max-width: 1400px) {
     display: none;
@@ -90,7 +93,8 @@
 }
 
 .datetime p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 .date {
@@ -137,11 +141,12 @@
   margin-top: 20px;
   padding-bottom: 10px;
   text-align: center;
+  font-weight: 600;
   @media (max-width: 1400px) {
     font-size: 1.5rem;
   }
   @media (max-width: 700px) {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -159,7 +164,7 @@
     font-size: 1.5rem;
   }
   @media (max-width: 700px) {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }
 .mobileheader {

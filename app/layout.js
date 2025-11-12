@@ -5,12 +5,7 @@ import Header from "@/components/header";
 const gilroy = localFont({
   src: [
     {
-      path: "../public/fonts/Gilroy-Regular.woff2",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/Gilroy-Regular.woff",
+      path: "../public/fonts/Gilroy Light.woff2",
       weight: "400",
       style: "normal",
     },

@@ -72,6 +72,7 @@
 }
 .cardTitle p {
   font-size: 2.2rem;
+  letter-spacing: -1px;
 }
 .cardInfo {
   margin-top: 15px;
@@ -134,6 +135,7 @@
   border: 1px solid #fb2c36;
   justify-content: center;
   color: #fb2c36;
+  font-family: inherit;
 }
 .whispercardButton:hover {
   cursor: pointer;
@@ -150,6 +152,7 @@
   border: 1px solid #8e51ff;
   justify-content: center;
   color: #8e51ff;
+  font-family: inherit;
 }
 .cardFooter2 a {
   text-decoration: none;

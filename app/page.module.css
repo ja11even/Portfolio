@@ -44,6 +44,8 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  letter-spacing: -2px;
   animation: gradientFlow 2s ease-in-out infinite alternate;
   @media (max-width: 1400px) {
     font-size: 3rem;

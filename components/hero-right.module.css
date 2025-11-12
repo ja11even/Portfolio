@@ -21,6 +21,7 @@
   overflow-wrap: break-word;
   white-space: normal;
   hyphens: none;
+  letter-spacing: -1px;
   @media (max-width: 1400px) {
     font-size: 3rem;
     line-height: 1.5;

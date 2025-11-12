@@ -13,6 +13,7 @@
 
 .tools h2 {
   font-size: 3rem;
+  letter-spacing: -2px;
   @media (max-width: 1400px) {
     font-size: 2.5rem;
     text-align: center;
@@ -25,6 +26,7 @@
 
 .tools h3 {
   font-size: 1.7rem;
+  letter-spacing: -1px;
   @media (max-width: 1400px) {
     font-size: 1.5rem;
     text-align: center;
