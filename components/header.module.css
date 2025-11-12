@@ -94,10 +94,10 @@
 }
 
 .date {
-  width: 270px;
+  width: auto;
 }
 .time {
-  width: 115px;
+  width: auto;
 }
 
 .menu {

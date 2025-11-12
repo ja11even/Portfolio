@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  experimental: {
+    defaultFont: false,
+    optimizeCss: false,
+  },
+  nextScriptWorkers: false,
+  enableUndici: false,
   reactCompiler: true,
 };
 

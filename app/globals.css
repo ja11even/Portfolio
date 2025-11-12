@@ -9,7 +9,7 @@ html {
   -ms-overflow-style: none;
 }
 body {
-  font-family: var(--font-gilroy), sans-serif;
+  font-family: var(--font-gilroy), sans-serif !important;
   background-color: #e4e0e0;
   -ms-overflow-style: none;
   scrollbar-width: none;
